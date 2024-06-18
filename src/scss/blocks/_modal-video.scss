@@ -1,0 +1,49 @@
+.modal {
+
+	&__video-container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		position: relative;
+		max-width: 900px;
+		width: 100%;
+		margin: 0 15px;
+	}
+
+	&__video-content {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: #fff;
+		width: 100%;
+		padding-top: 56.25%;
+	}
+
+	&__video-close {
+		position: absolute;
+		top: -15px;
+		right: 10px;
+		font-size: 60px;
+		color: #fff;
+		cursor: pointer;
+		z-index: 999;
+
+		@include tablet {
+			font-size: 50px;
+			top: -10px;
+		}
+
+		@include mobile {
+			font-size: 40px;
+			top: 5px;
+		}
+	}
+
+	&__video-iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+}

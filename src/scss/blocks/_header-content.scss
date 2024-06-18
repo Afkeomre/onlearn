@@ -1,0 +1,194 @@
+.header-content {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 70px 0 153px;
+	background-image: url('./../../img/header/student.png');
+	background-repeat: no-repeat;
+	background-position: bottom 0 right -16%;
+
+	@include tablet {
+		padding: 60px 0 140px;
+		background-position: bottom 0 right -40%;
+		background-size: 80%;
+	}
+
+	@include mobile {
+		align-items: center;
+		padding: 50px 0 100px;
+		background-image: none;
+	}
+
+	&__title {
+		font-weight: 700;
+		font-size: 64px;
+		line-height: 117%;
+		color: var(--brand-color);
+		margin-bottom: 28px;
+		max-width: 688px;
+
+		@include laptop {
+			font-size: 60px;
+		}
+
+		@include tablet {
+			font-size: 48px;
+			max-width: 500px;
+		}
+
+		@include mobile {
+			font-size: 40px;
+			text-align: center;
+			margin-bottom: 44px;
+		}
+	}
+
+	&__row {
+		display: flex;
+		gap: 12px;
+		align-items: center;
+
+		@include laptop {
+			flex-direction: column;
+			align-items: flex-start;
+			gap: 18px;
+		}
+
+		@include mobile {
+			align-items: center;
+		}
+	}
+
+	&__graph,
+	&__assisted {
+		position: absolute;
+	}
+
+	&__graph {
+		top: 150px;
+		right: 5px;
+
+		@include tablet {
+			top: 200px;
+			right: 0;
+			width: 110px;
+		}
+
+		@include mobile {
+			display: none;
+		}
+	}
+
+	&__assisted {
+		bottom: 185px;
+		right: 338px;
+		display: flex;
+		align-items: center;
+		gap: 32px;
+		padding: 18px 28px;
+		border-radius: 20px;
+		backdrop-filter: blur(20px);
+		background: rgba(255, 255, 255, 0.8);
+
+		@include laptop {
+			bottom: 170px;
+			right: 310px;
+			padding: 14px 24px;
+			gap: 28px;
+		}
+
+		@include tablet {
+			bottom: 15px;
+			right: 10px;
+			padding: 8px 12px;
+			gap: 15px;
+			border-radius: 15px;
+		}
+
+		@include mobile {
+			display: none;
+		}
+
+		img {
+			@include tablet {
+				width: 35px;
+			}
+		}
+	}
+
+	&__text {
+		font-family: var(--font4);
+		font-weight: 600;
+		font-size: 20px;
+		letter-spacing: 0.02em;
+		color: #545567;
+		line-height: 150%;
+
+		@include tablet {
+			font-size: 12px;
+		}
+	}
+
+	&__number {
+		display: block;
+		font-weight: 700;
+		font-size: 24px;
+		color: #595959;
+		line-height: 150%;
+
+		@include tablet {
+			font-size: 16px;
+		}
+	}
+
+	&__play-bg {
+		position: absolute;
+		left: 50%;
+		bottom: 0;
+		transform: translate(-50%, 50%);
+		width: 273px;
+		height: 273px;
+		background-color: #d2e6e4;
+		border-radius: 50%;
+
+		@include laptop {
+			width: 220px;
+			height: 220px;
+		}
+
+		@include tablet {
+			width: 190px;
+			height: 190px;
+		}
+
+		@include mobile {
+			width: 170px;
+			height: 170px;
+		}
+	}
+
+	&__play-img {
+		position: absolute;
+		left: 50%;
+		bottom: 0;
+		transform: translate(-50%, 50%);
+		transition: all .2s ease-in;
+
+		&:hover {
+			transform: translate(-50%, 50%) scale(1.03);
+		}
+
+		@include laptop {
+			width: 165px;
+		}
+
+		@include tablet {
+			width: 145px;
+		}
+
+		@include mobile {
+			width: 130px;
+		}
+	}
+}

@@ -1,0 +1,57 @@
+.header-nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 43px 0 43px 14px;
+	color: #252641;
+	font-weight: 500;
+	letter-spacing: 0.02em;
+
+	@include mobile {
+		padding-left: 0;
+	}
+
+	&__logo {
+		@include mobile {
+			width: 160px;
+		}
+	}
+
+	&__list {
+		display: flex;
+		align-items: center;
+		gap: 80px;
+
+		@include laptop {
+			gap: 30px;
+		}
+
+		@include tablet {
+			display: none;
+		}
+
+		a {
+			transition: all .2s ease;
+		}
+
+		a:hover,
+		a:focus,
+		a:active {
+			color: var(--brand-color-2);
+			font-weight: 700;
+		}
+	}
+
+	&__btns {
+		display: flex;
+		gap: 32px;
+
+		@include laptop {
+			gap: 20px;
+		}
+
+		@include tablet {
+			display: none;
+		}
+	}
+}

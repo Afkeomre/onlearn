@@ -1,0 +1,22 @@
+<div class="modal__login modal none">
+	<div class="modal__dialog">
+		<div class="modal__content">
+			<form id="loginForm" action="#">
+				<div data-close class="modal__close">×</div>
+				<div class="modal__title">Log in to your account</div>
+				<input required class="modal__input" type="email" id="loginEmail" name="loginEmail" placeholder="Email"
+					autocomplete="off">
+				<div class="modal__input-wrapper password">
+					<input required class="modal__input password__input" type="password" minlength="6" maxlength="40"
+						id="loginPassword" name="loginPassword" placeholder="Password" autocomplete="off">
+					<div class="password__btn"><img src="./../../img/icons/eye.svg" alt=""></div>
+				</div>
+				<button id="loginSubmit" type="submit" class="modal__btn btn btn_orange">Log in</button>
+			</form>
+
+			<div class="modal__message none">
+				<div data-close class="modal__close">×</div>
+			</div>
+		</div>
+	</div>
+</div>

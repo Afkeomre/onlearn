@@ -1,0 +1,28 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+
+@import url(https://fonts.googleapis.com/css?family=Kanit:regular);
+
+@import url(https://fonts.googleapis.com/css?family=Nunito+Sans:700);
+
+html {
+	scroll-behavior: smooth;
+	scrollbar-gutter: stable;
+}
+
+body {
+	background-color: var(--page-bg);
+	color: var(--text-color);
+	font-family: var(--font-family);
+	font-size: 18px;
+	text-wrap: balance;
+}
+
+img {
+	display: block;
+}
+
+a {
+	color: inherit;
+}

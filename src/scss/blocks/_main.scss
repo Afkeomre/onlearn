@@ -1,0 +1,11 @@
+.main {
+	display: flex;
+	flex-direction: column;
+	gap: 110px;
+	margin-bottom: 171px;
+
+	@include mobile {
+		gap: 90px;
+		margin-bottom: 120px;
+	}
+}

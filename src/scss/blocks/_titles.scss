@@ -1,0 +1,39 @@
+.title {
+	font-family: var(--second-family);
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 130%;
+	letter-spacing: -0.06em;
+	margin-left: auto;
+	margin-right: auto;
+	width: fit-content;
+
+	&_orange {
+		color: var(--brand-color-2);
+	}
+
+	&_cyan {
+		color: var(--brand-color);
+	}
+
+	&_side {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	&_white {
+		color: #fff;
+	}
+
+	@include mobile {
+		font-size: 34px;
+	}
+}
+
+.title-5 {
+	font-family: var(--font-family);
+	font-weight: 700;
+	font-size: 15px;
+	color: #0a033c;
+	margin-bottom: 29px;
+}

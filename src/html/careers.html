@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Onlearn</title>
+	<link rel="stylesheet" href="./css/main.css" />
+
+	<link rel="icon" type="image/x-icon" href="./img/favicons/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon.png">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header header__careers">
+			<div class="header__container container">
+				@@include('blocks/header-nav.html')
+			</div>
+		</header>
+		<main class="main">
+			@@include('careers/info.html')
+		</main>
+		@@include('blocks/footer.html')
+	</div>
+
+	<script src="./js/careers.bundle.js"></script>
+</body>
+
+</html>

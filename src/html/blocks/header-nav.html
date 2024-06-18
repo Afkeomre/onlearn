@@ -1,0 +1,30 @@
+<div class="header-nav">
+	<div class="header-nav__logo">
+		<a href="index.html"><img src="./../../img/logo/logo.svg" alt="Onlearn"></a>
+	</div>
+
+	<nav class="header-nav__links">
+		<ul class="header-nav__list">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="careers.html">Careers</a></li>
+			<li><a href="blog.html">Blog</a></li>
+			<li><a href="about.html">About Us</a></li>
+		</ul>
+	</nav>
+
+	<div class="header-nav__btns">
+		<button data-login class="btn btn_cyan">Log in</button>
+		<button data-signup class="btn btn_cyan">Sign up</button>
+		<button data-exit class="btn btn_cyan none">Sign out</button>
+	</div>
+
+	<div class="mobile-nav__btn">
+		<button class="nav-icon-btn">
+			<div class="nav-icon"></div>
+		</button>
+	</div>
+</div>
+
+@@include('modal-login.html')
+@@include('modal-signup.html')
+@@include('mobile-nav.html')

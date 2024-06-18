@@ -1,0 +1,26 @@
+.list-fade {
+	animation-name: showUp;
+	animation-duration: 2s;
+	animation-delay: var(--delay);
+	animation-fill-mode: forwards;
+
+	@keyframes showUp {
+		to {
+			opacity: 1;
+		}
+	}
+}
+
+.fade {
+	animation-name: fade;
+	animation-duration:1s;
+
+	@keyframes fade {
+		from {
+			opacity: 0.1;
+		} 
+		to {
+			opacity: 1;
+		}
+	}
+}

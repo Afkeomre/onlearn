@@ -1,0 +1,23 @@
+.header {
+	background-color: var(--header-bg);
+	border-radius: 0 0 50px 50px;
+	margin-bottom: 190px;
+
+	@include mobile {
+		border-radius: 0 0 30px 30px;
+		margin-bottom: 160px;
+	}
+
+	&__container {
+		background-image: url('./../../img/header/header-bg.svg');
+		background-repeat: no-repeat;
+		background-position: -15% 0;
+	}
+
+	&__careers,
+	&__blog,
+	&__about {
+		border-radius: 0;
+		margin-bottom: 70px;
+	}
+}

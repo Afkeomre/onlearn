@@ -1,0 +1,88 @@
+.training {
+
+	&__row {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		align-items: center;
+		gap: 94px;
+		padding: 0 45px;
+
+		@include laptop {
+			grid-template-columns: 1fr;
+			justify-items: center;
+		}
+
+		@include mobile {
+			justify-items: start;
+			padding: 0;
+			gap: 20px;
+		}
+	}
+
+	&__top {
+		margin-bottom: 44px;
+	}
+
+	&__img {
+		align-self: flex-end;
+	}
+
+	&__content {
+		@include laptop {
+			order: -1
+		}
+	}
+
+	&__list {
+		display: grid;
+		gap: 40px;
+
+		@include mobile {
+			gap: 20px;
+			margin-bottom: 30px;
+		}
+	}
+
+	&__list-item {
+		display: grid;
+		grid-template-columns: 60px 1fr;
+		align-items: center;
+		gap: 32px;
+		font-weight: 500;
+		line-height: 180%;
+		letter-spacing: 0.02em;
+		opacity: 0;
+
+		@include mobile {
+			font-size: 16px;
+			line-height: 150%;
+			font-size: 16px;
+			line-height: 150%;
+			grid-template-columns: 45px 1fr;
+			gap: 20px;
+		}
+	}
+
+	&__icon-wrapper {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 100%;
+		fill: #fbfbfb;
+		box-shadow: 0 15px 44px 0 rgba(13, 15, 28, 0.12);
+		width: 60px;
+		height: 60px;
+
+		@include mobile {
+			width: 45px;
+			height: 45px;
+		}
+	}
+
+	&__icon {
+		@include mobile {
+			width: 22px;
+			height: 22px;
+		}
+	}
+}

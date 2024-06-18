@@ -1,0 +1,321 @@
+{
+	"btns": [
+		{
+			"text": "all programme"
+		},
+		{
+			"text": "ui/ux design"
+		},
+		{
+			"text": "web development"
+		},
+		{
+			"text": "program design"
+		},
+		{
+			"text": "marketing"
+		},
+		{
+			"text": "photography"
+		}
+	],
+	"categories": [
+		{
+			"img": "01",
+			"title": "Beauty",
+			"description": "One powerful online software suite that combines"
+		},
+		{
+			"img": "02",
+			"title": "Medical",
+			"description": "One powerful online software suite that combines"
+		},
+		{
+			"img": "03",
+			"title": "Sports",
+			"description": "One powerful online software suite that combines"
+		},
+		{
+			"img": "04",
+			"title": "Nutrition",
+			"description": "One powerful online software suite that combines"
+		},
+		{
+			"img": "01",
+			"title": "Beauty",
+			"description": "One powerful online software suite that combines"
+		},
+		{
+			"img": "02",
+			"title": "Medical",
+			"description": "One powerful online software suite that combines"
+		},
+		{
+			"img": "03",
+			"title": "Sports",
+			"description": "One powerful online software suite that combines"
+		},
+		{
+			"img": "04",
+			"title": "Nutrition",
+			"description": "One powerful online software suite that combines"
+		},
+		{
+			"img": "01",
+			"title": "Beauty",
+			"description": "One powerful online software suite that combines"
+		},
+		{
+			"img": "02",
+			"title": "Medical",
+			"description": "One powerful online software suite that combines"
+		},
+		{
+			"img": "03",
+			"title": "Sports",
+			"description": "One powerful online software suite that combines"
+		},
+		{
+			"img": "04",
+			"title": "Nutrition",
+			"description": "One powerful online software suite that combines"
+		}
+	],
+	"courses": [
+		[
+			{
+				"img": "01",
+				"avatars": "./../../../img/icons/avatars.svg",
+				"number": "40",
+				"date": "1 - 28 July 2022",
+				"title": "Product Management Basic Course",
+				"description": "Product Management Masterclass, you will learn with Sarah Johnson - Head of Product Customer Platform Gojek Indonesia.",
+				"newPrice": "380",
+				"oldPrice": "500"
+			},
+			{
+				"img": "02",
+				"avatars": "./../../../img/icons/avatars.svg",
+				"number": "11",
+				"date": "1 - 28 July 2022",
+				"title": "BM Data Science Professional Certificate",
+				"description": "Product Management Masterclass, you will learn with Sarah Johnson - Head of Product Customer Platform Gojek Indonesia.",
+				"newPrice": "678",
+				"oldPrice": "500"
+			},
+			{
+				"img": "03",
+				"avatars": "./../../../img/icons/avatars.svg",
+				"number": "234",
+				"date": "1 - 28 July 2022",
+				"title": "The Science of Well-Being",
+				"description": "Product Management Masterclass, you will learn with Sarah Johnson - Head of Product Customer Platform Gojek Indonesia.",
+				"newPrice": "123",
+				"oldPrice": "500"
+			},
+			{
+				"img": "04",
+				"avatars": "./../../../img/icons/avatars.svg",
+				"number": "342",
+				"date": "1 - 28 July 2022",
+				"title": "Python for Everybody Specialization",
+				"description": "Product Management Masterclass, you will learn with Sarah Johnson - Head of Product Customer Platform Gojek Indonesia.",
+				"newPrice": "567",
+				"oldPrice": "500"
+			}
+		],
+		[
+			{
+				"img": "02",
+				"avatars": "./../../../img/icons/avatars.svg",
+				"number": "11",
+				"date": "1 - 28 July 2022",
+				"title": "BM Data Science Professional Certificate",
+				"description": "Product Management Masterclass, you will learn with Sarah Johnson - Head of Product Customer Platform Gojek Indonesia.",
+				"newPrice": "678",
+				"oldPrice": "500"
+			},
+			{
+				"img": "03",
+				"avatars": "./../../../img/icons/avatars.svg",
+				"number": "234",
+				"date": "1 - 28 July 2022",
+				"title": "The Science of Well-Being",
+				"description": "Product Management Masterclass, you will learn with Sarah Johnson - Head of Product Customer Platform Gojek Indonesia.",
+				"newPrice": "123",
+				"oldPrice": "500"
+			}
+		],
+		[
+			{
+				"img": "01",
+				"avatars": "./../../../img/icons/avatars.svg",
+				"number": "40",
+				"date": "1 - 28 July 2022",
+				"title": "Product Management Basic Course",
+				"description": "Product Management Masterclass, you will learn with Sarah Johnson - Head of Product Customer Platform Gojek Indonesia.",
+				"newPrice": "380",
+				"oldPrice": "500"
+			},
+			{
+				"img": "02",
+				"avatars": "./../../../img/icons/avatars.svg",
+				"number": "11",
+				"date": "1 - 28 July 2022",
+				"title": "BM Data Science Professional Certificate",
+				"description": "Product Management Masterclass, you will learn with Sarah Johnson - Head of Product Customer Platform Gojek Indonesia.",
+				"newPrice": "678",
+				"oldPrice": "500"
+			},
+			{
+				"img": "03",
+				"avatars": "./../../../img/icons/avatars.svg",
+				"number": "234",
+				"date": "1 - 28 July 2022",
+				"title": "The Science of Well-Being",
+				"description": "Product Management Masterclass, you will learn with Sarah Johnson - Head of Product Customer Platform Gojek Indonesia.",
+				"newPrice": "123",
+				"oldPrice": "500"
+			}
+		],
+		[
+			{
+				"img": "03",
+				"avatars": "./../../../img/icons/avatars.svg",
+				"number": "234",
+				"date": "1 - 28 July 2022",
+				"title": "The Science of Well-Being",
+				"description": "Product Management Masterclass, you will learn with Sarah Johnson - Head of Product Customer Platform Gojek Indonesia.",
+				"newPrice": "123",
+				"oldPrice": "500"
+			}
+		],
+		[
+			{
+				"img": "01",
+				"avatars": "./../../../img/icons/avatars.svg",
+				"number": "40",
+				"date": "1 - 28 July 2022",
+				"title": "Product Management Basic Course",
+				"description": "Product Management Masterclass, you will learn with Sarah Johnson - Head of Product Customer Platform Gojek Indonesia.",
+				"newPrice": "380",
+				"oldPrice": "500"
+			},
+			{
+				"img": "02",
+				"avatars": "./../../../img/icons/avatars.svg",
+				"number": "11",
+				"date": "1 - 28 July 2022",
+				"title": "BM Data Science Professional Certificate",
+				"description": "Product Management Masterclass, you will learn with Sarah Johnson - Head of Product Customer Platform Gojek Indonesia.",
+				"newPrice": "678",
+				"oldPrice": "500"
+			},
+			{
+				"img": "03",
+				"avatars": "./../../../img/icons/avatars.svg",
+				"number": "234",
+				"date": "1 - 28 July 2022",
+				"title": "The Science of Well-Being",
+				"description": "Product Management Masterclass, you will learn with Sarah Johnson - Head of Product Customer Platform Gojek Indonesia.",
+				"newPrice": "123",
+				"oldPrice": "500"
+			},
+			{
+				"img": "04",
+				"avatars": "./../../../img/icons/avatars.svg",
+				"number": "342",
+				"date": "1 - 28 July 2022",
+				"title": "Python for Everybody Specialization",
+				"description": "Product Management Masterclass, you will learn with Sarah Johnson - Head of Product Customer Platform Gojek Indonesia.",
+				"newPrice": "567",
+				"oldPrice": "500"
+			}
+		],
+		[
+			{
+				"img": "01",
+				"avatars": "./../../../img/icons/avatars.svg",
+				"number": "40",
+				"date": "1 - 28 July 2022",
+				"title": "Product Management Basic Course",
+				"description": "Product Management Masterclass, you will learn with Sarah Johnson - Head of Product Customer Platform Gojek Indonesia.",
+				"newPrice": "380",
+				"oldPrice": "500"
+			},
+			{
+				"img": "02",
+				"avatars": "./../../../img/icons/avatars.svg",
+				"number": "11",
+				"date": "1 - 28 July 2022",
+				"title": "BM Data Science Professional Certificate",
+				"description": "Product Management Masterclass, you will learn with Sarah Johnson - Head of Product Customer Platform Gojek Indonesia.",
+				"newPrice": "678",
+				"oldPrice": "500"
+			}
+		]
+	],
+	"exclusive": [
+		{
+			"img": "01",
+			"avatars": "./../../../img/icons/avatars.svg",
+			"newPrice": "380",
+			"oldPrice": "500",
+			"date": "1 - 28 July 2022",
+			"title": "Product Management Basic Course",
+			"description": "Product Management Masterclass, you will learn with Sarah Johnson - Head of Product Customer Platform Gojek Indonesia.",
+			"number": "40"
+		},
+		{
+			"img": "01",
+			"avatars": "./../../../img/icons/avatars.svg",
+			"newPrice": "480",
+			"oldPrice": "600",
+			"date": "1 - 28 July 2022",
+			"title": "BM Data Science Professional Certificate",
+			"description": "Product Management Masterclass, you will learn with Sarah Johnson - Head of Product Customer Platform Gojek Indonesia.",
+			"number": "40"
+		},
+		{
+			"img": "01",
+			"avatars": "./../../../img/icons/avatars.svg",
+			"newPrice": "200",
+			"oldPrice": "400",
+			"date": "1 - 28 July 2022",
+			"title": "The Science of Well-Being",
+			"description": "Product Management Masterclass, you will learn with Sarah Johnson - Head of Product Customer Platform Gojek Indonesia.",
+			"number": "40"
+		},
+		{
+			"img": "01",
+			"avatars": "./../../../img/icons/avatars.svg",
+			"newPrice": "500",
+			"oldPrice": "600",
+			"date": "1 - 28 July 2022",
+			"title": "The Science of Well-Being",
+			"description": "Product Management Masterclass, you will learn with Sarah Johnson - Head of Product Customer Platform Gojek Indonesia.",
+			"number": "40"
+		}
+	],
+	"users": [
+		{
+			"id": 1,
+			"signupEmail": "a@mail.ru",
+			"signupPassword": "111111",
+			"confirmPassword": "111111"
+		},
+		{
+			"id": 2,
+			"signupEmail": "b@mail.ru",
+			"signupPassword": "222222",
+			"confirmPassword": "222222"
+		},
+		{
+			"id": 3,
+			"signupEmail": "c@mail.ru",
+			"signupPassword": "333333",
+			"confirmPassword": "333333"
+		}
+	],
+	"subscribers": []
+}

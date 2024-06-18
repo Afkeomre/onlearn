@@ -1,0 +1,117 @@
+.gift {
+
+	&__container {
+		padding: 141px 45px 0;
+
+		@include tablet {
+			padding-top: 50px;
+		}
+
+		@include mobile {
+			padding: 0 20px;
+		}
+	}
+
+	&__content {
+		position: relative;
+		color: #fff;
+		background: #df1c25;
+		border-radius: 16px;
+		padding: 51px 59px 30px;
+		background-image: url('./../../img/gift/gift-bg.svg');
+		background-repeat: no-repeat;
+		background-position: right bottom;
+
+		@include tablet {
+			padding: 40px 40px 20px;
+		}
+
+		@include mobile {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			padding: 40px 20px 20px;
+		}
+	}
+
+	&__reasons {
+		max-width: 600px;
+
+		@include tablet {
+			max-width: 400px;
+		}
+
+		@include mobile {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+	}
+
+	&__title {
+		position: relative;
+		z-index: 10;
+		margin-bottom: 25px; 
+
+		@include mobile {
+			text-align: center;
+		}
+	}
+
+	&__list {
+		display: flex;
+		flex-direction: column;
+		gap: 9px;
+		margin-bottom: 30px;
+
+		@include mobile {
+			width: 80%;
+			align-items: center;
+		}
+
+		li {
+			position: relative;
+			z-index: 10;
+			font-weight: 500;
+			font-size: 14px;
+			line-height: 120%;
+			letter-spacing: 0.02em;
+			color: #fff;
+			padding: 3.5px 30px;
+
+			@include mobile {
+				padding-right: 0;
+			}
+
+			&::before {
+				content: '';
+				position: absolute;
+				display: block;
+				width: 24px;
+				height: 24px;
+				top: 2px;
+				left: 0;
+				background-image: url('./../../img/gift/icons/star.svg');
+			}
+		}
+	}
+
+	&__img {
+		position: absolute;
+		bottom: 0;
+		right: -25px;
+
+		@include tablet {
+			width: 80%;
+		}
+
+		@include mobile {
+			display: none;
+		}
+	}
+
+	&__btn {
+		position: relative;
+		z-index: 10;
+	}
+}
