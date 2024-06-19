@@ -3,7 +3,6 @@ const fileInclude = require('gulp-file-include');
 const sass = require('gulp-sass')(require('sass'));
 const sassGlob = require('gulp-sass-glob');
 const server = require('gulp-server-livereload');
-const jsonServer = require('gulp-json-srv');
 const clean = require('gulp-clean');
 const fs = require('fs');
 const sourceMaps = require('gulp-sourcemaps');
@@ -100,19 +99,12 @@ gulp.task('server:dev', function () {
   return gulp.src('./build/').pipe(server(serverOptions));
 });
 
-const newServer = jsonServer.create();
-
-gulp.task('start:dev', function () {
-  return gulp.src('./server/db.json').pipe(newServer.pipe());
-});
-
 gulp.task('watch:dev', function () {
   gulp.watch('./src/scss/**/*.scss', gulp.parallel('sass:dev'));
   gulp.watch(
     ['./src/html/**/*.html', './src/html/**/*.json'],
     gulp.parallel('html:dev')
   );
-  gulp.watch('./server/db.json', gulp.parallel('start:dev'));
   gulp.watch('./src/img/**/*', gulp.parallel('images:dev'));
   gulp.watch('./src/files/**/*', gulp.parallel('files:dev'));
   gulp.watch('./src/js/**/*.js', gulp.parallel('js:dev'));

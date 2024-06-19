@@ -55,7 +55,7 @@ function forms(formSelector, successMessage, dataMessage) {
 
       const json = JSON.stringify(Object.fromEntries(formData.entries()));
 
-      getResource('http://localhost:3000/users')
+      getResource('https://c1cf054ef519e1a2.mokky.dev/users')
         .then((data) => {
           let existedUser;
 
@@ -98,7 +98,7 @@ function forms(formSelector, successMessage, dataMessage) {
         })
         .then(() => {
           if (flag) {
-            postData('http://localhost:3000/users', json)
+            postData('https://c1cf054ef519e1a2.mokky.dev/users', json)
               .then((data) => {
                 console.log(data);
                 showThanksModal(message.success.text, message.success.class);

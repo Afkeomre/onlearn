@@ -3,7 +3,7 @@ import { getResource } from './../services/services';
 const fetchCourses = () => {
   const parents = document.querySelectorAll('.courses__cards');
 
-  getResource('http://localhost:3000/courses').then((data) => {
+  getResource('https://c1cf054ef519e1a2.mokky.dev/courses').then((data) => {
     data.forEach((arr, i) => {
       parents.forEach((parent, j) => {
         arr.forEach((item) => {

@@ -3,7 +3,7 @@ import { getResource } from './../services/services';
 const fetchBtns = () => {
   const parent = document.querySelector('.courses__buttons');
 
-  getResource('http://localhost:3000/btns').then((data) => {
+  getResource('https://c1cf054ef519e1a2.mokky.dev/btns').then((data) => {
     data.forEach((item) => {
       parent.insertAdjacentHTML(
         'beforeend',

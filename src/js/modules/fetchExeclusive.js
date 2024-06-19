@@ -3,7 +3,7 @@ import { getResource } from './../services/services';
 const fetchExeclusive = () => {
   const parent = document.querySelector('.swiper-wrapper');
 
-  getResource('http://localhost:3000/exclusive').then((data) => {
+  getResource('https://c1cf054ef519e1a2.mokky.dev/exclusive').then((data) => {
     data.forEach((item) => {
       parent.insertAdjacentHTML(
         'beforeend',

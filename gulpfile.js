@@ -9,7 +9,7 @@ gulp.task(
   gulp.series(
     'clean:dev',
     gulp.parallel('html:dev', 'sass:dev', 'images:dev', 'files:dev', 'js:dev'),
-    gulp.parallel('server:dev', 'start:dev', 'watch:dev')
+    gulp.parallel('server:dev', 'watch:dev')
   )
 );
 
@@ -24,6 +24,6 @@ gulp.task(
       'files:docs',
       'js:docs'
     ),
-    gulp.parallel('server:docs', 'start:docs')
+    gulp.parallel('server:docs')
   )
 );

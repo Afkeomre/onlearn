@@ -32,7 +32,7 @@ function newsletterForm(formSelector) {
       const formData = new FormData(form);
       const json = JSON.stringify(Object.fromEntries(formData.entries()));
 
-      postData('http://localhost:3000/subscribers', json)
+      postData('https://c1cf054ef519e1a2.mokky.dev/subscribers', json)
         .then((data) => {
           console.log(data);
           showThanksMessage(message.success.text, message.success.class);

@@ -13,7 +13,6 @@ const autoprefixer = require('gulp-autoprefixer');
 const csso = require('gulp-csso');
 
 const server = require('gulp-server-livereload');
-const jsonServer = require('gulp-json-srv');
 const clean = require('gulp-clean');
 const fs = require('fs');
 const sourceMaps = require('gulp-sourcemaps');
@@ -52,40 +51,24 @@ const plumberNotify = (title) => {
 };
 
 gulp.task('html:docs', function () {
-  return (
-    gulp
-      .src(['./src/html/**/*.html', '!./src/html/blocks/*.html'])
-      .pipe(changed('./docs/'))
-      .pipe(plumber(plumberNotify('HTML')))
-      .pipe(fileInclude(fileIncludeSetting))
-      .pipe(
-        replace(
-          /(?<=src=|href=|srcset=)(['"])(\.(\.)?\/)*(img|images|fonts|css|scss|sass|js|files|audio|video)(\/[^\/'"]+(\/))?([^'"]*)\1/gi,
-          '$1./$4$5$7$1'
-        )
+  return gulp
+    .src(['./src/html/**/*.html', '!./src/html/blocks/*.html'])
+    .pipe(changed('./docs/'))
+    .pipe(plumber(plumberNotify('HTML')))
+    .pipe(fileInclude(fileIncludeSetting))
+    .pipe(
+      replace(
+        /(?<=src=|href=|srcset=)(['"])(\.(\.)?\/)*(img|images|fonts|css|scss|sass|js|files|audio|video)(\/[^\/'"]+(\/))?([^'"]*)\1/gi,
+        '$1./$4$5$7$1'
       )
-      // .pipe(
-      //   typograf({
-      //     locale: ['ru', 'en-US'],
-      //     htmlEntity: { type: 'digit' },
-      //     safeTags: [
-      //       ['<\\?php', '\\?>'],
-      //       ['<no-typography>', '</no-typography>'],
-      //     ],
-      //   })
-      // )
-      .pipe(
-        webpHTML({
-          extensions: ['jpg', 'jpeg', 'png', 'gif', 'webp'],
-          retina: {
-            1: '',
-            2: '@2x',
-          },
-        })
-      )
-      .pipe(htmlclean())
-      .pipe(gulp.dest('./docs/'))
-  );
+    )
+    .pipe(
+      webpHTML({
+        extensions: ['jpg', 'jpeg', 'png', 'gif', 'webp'],
+      })
+    )
+    .pipe(htmlclean())
+    .pipe(gulp.dest('./docs/'));
 });
 
 gulp.task('sass:docs', function () {
@@ -161,10 +144,4 @@ const serverOptions = {
 
 gulp.task('server:docs', function () {
   return gulp.src('./docs/').pipe(server(serverOptions));
-});
-
-const newServer = jsonServer.create();
-
-gulp.task('start:docs', function () {
-  return gulp.src('./server/db.json').pipe(newServer.pipe());
 });

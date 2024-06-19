@@ -3,7 +3,7 @@ import { getResource } from './../services/services';
 const fetchCategories = () => {
   const parent = document.querySelector('.category__cards');
 
-  getResource('http://localhost:3000/categories').then((data) => {
+  getResource('https://c1cf054ef519e1a2.mokky.dev/categories').then((data) => {
     data.forEach((item) => {
       parent.insertAdjacentHTML(
         'beforeend',
