@@ -1,25 +1,20 @@
 import mobileNav from './modules/mobile-nav.js';
 import showList from './modules/showList.js';
-import fetchBtns from './modules/fetchBtns.js';
-import fetchCategories from './modules/fetchCategories.js';
-import fetchCourses from './modules/fetchCourses.js';
 import fetchExeclusive from './modules/fetchExeclusive.js';
-import viewAll from './modules/viewAll.js';
 import adjustSwiper from './modules/adjustSwiper.js';
 import modal from './modules/modal.js';
 import forms from './modules/forms.js';
 import showPassword from './modules/showPassword.js';
-import tabs from './modules/tabs.js';
 import loadVideo from './modules/loadVideo.js';
 import activeLink from './modules/activeLink.js';
 import newsletterForm from './modules/newsletterForm.js';
-
-fetchBtns();
-fetchCategories();
-fetchCourses();
-fetchExeclusive();
+import prepareTabs from './modules/prepareTabs.js';
+import prepareCategories from './modules/prepareCategories.js';
 
 window.addEventListener('DOMContentLoaded', () => {
+  fetchExeclusive();
+  prepareTabs();
+  prepareCategories();
   mobileNav();
   showList(
     '.benefits__btn',
@@ -34,14 +29,6 @@ window.addEventListener('DOMContentLoaded', () => {
     '.training__row',
     '.training__list-item',
     'Training'
-  );
-  viewAll(
-    '.category__btn',
-    '.category__cards',
-    '.category',
-    '.category__card',
-    'View all',
-    'Less categories'
   );
   adjustSwiper();
   modal('.modal__login', '[data-login]');

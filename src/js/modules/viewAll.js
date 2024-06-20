@@ -10,7 +10,7 @@ const viewAll = (
   const container = document.querySelector(containerSelector);
   const section = document.querySelector(sectionSelector);
 
-  window.addEventListener('load', setMaxHeight);
+  setMaxHeight();
 
   btn.addEventListener('click', () => {
     const isActive = btn.classList.toggle('active');
@@ -35,7 +35,7 @@ const viewAll = (
     const cards = document.querySelectorAll(cardSelector);
 
     cards.forEach((card) => {
-      container.style.maxHeight = Math.round(card.scrollHeight) * 1.5 + 'px';
+      container.style.maxHeight = Math.round(card.scrollHeight) * 1.8 + 'px';
     });
   }
 };
