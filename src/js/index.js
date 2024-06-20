@@ -61,12 +61,6 @@ window.addEventListener('DOMContentLoaded', () => {
   newsletterForm('#newsletterForm');
   activeLink('.header-nav__list a');
   activeLink('.mobile-nav__list a');
-  tabs(
-    '.courses__btn',
-    '.courses__cards',
-    '.courses__buttons',
-    'courses__btn_active'
-  );
   loadVideo(
     '[data-video]',
     '.modal__video-content',

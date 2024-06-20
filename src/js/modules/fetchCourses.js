@@ -1,16 +1,18 @@
 import { getResource } from './../services/services';
+import tabs from './tabs';
 
 const fetchCourses = () => {
   const parents = document.querySelectorAll('.courses__cards');
 
-  getResource('https://c1cf054ef519e1a2.mokky.dev/courses').then((data) => {
-    data.forEach((arr, i) => {
-      parents.forEach((parent, j) => {
-        arr.forEach((item) => {
-          if (i === j) {
-            parent.insertAdjacentHTML(
-              'beforeend',
-              `<article class="courses__card">
+  getResource('https://c1cf054ef519e1a2.mokky.dev/courses')
+    .then((data) => {
+      data.forEach((arr, i) => {
+        parents.forEach((parent, j) => {
+          arr.forEach((item) => {
+            if (i === j) {
+              parent.insertAdjacentHTML(
+                'beforeend',
+                `<article class="courses__card">
 								<div class="courses__card-info">
 									<img class="courses__card-img" src="./../../../img/courses/${item.img}.jpg" alt="Course">
 									<div class="courses__card-statistic">
@@ -31,12 +33,20 @@ const fetchCourses = () => {
 									</div>
 								</div>
 							</article>`
-            );
-          }
+              );
+            }
+          });
         });
       });
+    })
+    .then(() => {
+      tabs(
+        '.courses__btn',
+        '.courses__cards',
+        '.courses__buttons',
+        'courses__btn_active'
+      );
     });
-  });
 };
 
 export default fetchCourses;
