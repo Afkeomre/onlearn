@@ -39,7 +39,7 @@ const fetchCourses = () => {
         });
       });
     })
-    .then(() => {
+    .finally(() => {
       tabs(
         '.courses__btn',
         '.courses__cards',
