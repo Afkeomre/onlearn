@@ -135,18 +135,20 @@ function forms(formSelector, successMessage, dataMessage) {
     }
 
     function addExitPossibility() {
-      const loginBtn = document.querySelector('[data-login]');
-      const signupBtn = document.querySelector('[data-signup]');
-      const exitBtn = document.querySelector('[data-exit]');
+      const loginBtns = document.querySelectorAll('[data-login]');
+      const signupBtns = document.querySelectorAll('[data-signup]');
+      const exitBtns = document.querySelectorAll('[data-exit]');
 
-      exitBtn.classList.remove('none');
-      loginBtn.classList.add('none');
-      signupBtn.classList.add('none');
+      exitBtns.forEach((btn) => btn.classList.remove('none'));
+      loginBtns.forEach((btn) => btn.classList.add('none'));
+      signupBtns.forEach((btn) => btn.classList.add('none'));
 
-      exitBtn.addEventListener('click', () => {
-        exitBtn.classList.add('none');
-        loginBtn.classList.remove('none');
-        signupBtn.classList.remove('none');
+      exitBtns.forEach((btn) => {
+        btn.addEventListener('click', () => {
+          exitBtns.forEach((btn) => btn.classList.add('none'));
+          loginBtns.forEach((btn) => btn.classList.remove('none'));
+          signupBtns.forEach((btn) => btn.classList.remove('none'));
+        });
       });
     }
 
