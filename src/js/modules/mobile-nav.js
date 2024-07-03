@@ -4,7 +4,6 @@ function mobileNav() {
   const navBtn = document.querySelector('.mobile-nav__btn');
   const nav = document.querySelector('.mobile-nav');
   const menuIcon = document.querySelector('.nav-icon');
-  let scrollPosition = 0;
 
   navBtn.addEventListener('click', function () {
     nav.classList.toggle('mobile-nav_open');
