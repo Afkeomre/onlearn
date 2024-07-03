@@ -20,5 +20,17 @@ const postData = async (url, data) => {
   return await response.json();
 };
 
+const setBodyTop = (scrollPosition = 0) => {
+  scrollPosition = window.scrollY;
+  document.body.style.top = `-${scrollPosition}px`;
+};
+
+const unsetBodyTop = (scrollPosition = 0) => {
+  document.body.style.top = '';
+  window.scrollTo(0, scrollPosition);
+};
+
 export { getResource };
 export { postData };
+export { setBodyTop };
+export { unsetBodyTop };

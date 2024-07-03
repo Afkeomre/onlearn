@@ -1,6 +1,9 @@
+import { setBodyTop, unsetBodyTop } from '../services/services';
+
 function modal(modalSelector, openBtnSelector) {
   const modalWindow = document.querySelector(modalSelector);
   const openBtns = document.querySelectorAll(openBtnSelector);
+  let scrollPosition = 0;
 
   openBtns.forEach((btn) => {
     btn.addEventListener('click', (e) => {
@@ -27,11 +30,13 @@ function modal(modalSelector, openBtnSelector) {
   function showModal() {
     modalWindow.classList.remove('none');
     document.body.classList.add('no-scroll');
+    setBodyTop();
   }
 }
 
 function hideModal(modal) {
   modal.classList.add('none');
+  unsetBodyTop();
 
   if (
     !document.querySelector('.mobile-nav').classList.contains('mobile-nav_open')

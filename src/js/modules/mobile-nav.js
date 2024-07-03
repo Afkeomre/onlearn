@@ -1,3 +1,5 @@
+import { setBodyTop, unsetBodyTop } from '../services/services';
+
 function mobileNav() {
   const navBtn = document.querySelector('.mobile-nav__btn');
   const nav = document.querySelector('.mobile-nav');
@@ -10,11 +12,9 @@ function mobileNav() {
     document.body.classList.toggle('no-scroll');
 
     if (nav.classList.contains('mobile-nav_open')) {
-      scrollPosition = window.scrollY;
-      document.body.style.top = `-${scrollPosition}px`;
+      setBodyTop();
     } else {
-      document.body.style.top = '';
-      window.scrollTo(0, scrollPosition);
+      unsetBodyTop();
     }
   });
 }
