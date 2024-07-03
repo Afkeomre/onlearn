@@ -10,7 +10,7 @@
 	justify-content: center;
 	background: rgba(0, 0, 0, 0.7);
 	overflow-y: auto;
-	touch-action: pan-y;
+	-webkit-overflow-scrolling: touch;
 
 	&__dialog {
 		position: relative;
