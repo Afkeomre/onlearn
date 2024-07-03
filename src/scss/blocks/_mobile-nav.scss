@@ -16,6 +16,7 @@
 	background: #d2e6e4;
 	transition: all 0.4s ease-in;
 	overflow: auto;
+	touch-action: auto;
 
 	&__list {
 		display: flex;
