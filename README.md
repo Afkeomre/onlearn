@@ -17,6 +17,23 @@ You can watch the website online [here](https://onlearn.vercel.app/).
 - Client-side validation ensures requests are not sent with invalid data.
 - Users are notified of success or errors.
 
+| ![Registration form](https://drive.google.com/uc?export=view&id=1t_TNhjwvTRqd6veqyScl0YtdI7NLq_vb) | ![Login form](https://drive.google.com/uc?export=view&id=1HLsgX8Jl7VsoFwfHVycOEuhzX_rT5uw2) |
+|:--:|:--:|
+| Registartion form | Login from |
+
+| ![Success message](https://drive.google.com/uc?export=view&id=1Zy5mXbE8JqJviljW4iNarA3uUU3LlB1k) | ![Success message](https://drive.google.com/uc?export=view&id=1fQUplRRUHW_kER2pYdtTTFKxPlgRHnfp) |
+|:--:|:--:|
+| Success registration | Success login |
+
+| ![Failure message](https://drive.google.com/uc?export=view&id=1zfHlUfDXybZXrvA395L703h_xyW_xvQq) | ![Failure message](https://drive.google.com/uc?export=view&id=1dG7CSPQiQ_SNy-e1DIgXD2MLuIB8EAm2) |
+|:--:|:--:|
+| Failure registration | Failure login |
+
+| ![Error message](https://drive.google.com/uc?export=view&id=1xNripwdyrhmnLth_ICZn0bDcWWQ9-Ihk) | ![Password message](https://drive.google.com/uc?export=view&id=1Hsz7rXfnJRKbpgvu6yXKH97Xkjmx9D_T) |
+|:--:|:--:|
+| Error message in offline mode | Warning in case of password mismatch |
+
+
 ### ▶ Video in a Modal Window
 - A modal window with a YouTube video opens when a button "Explore More" is clicked.
 
