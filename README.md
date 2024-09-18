@@ -18,7 +18,7 @@ You can watch the website online [here](https://onlearn.vercel.app/).
 - Users are notified of success or errors.
 
 ### ▶ Video in a Modal Window
-- A modal window with a YouTube video opens when a button is clicked.
+- A modal window with a YouTube video opens when a button "Explore More" is clicked.
 
 ### 📥 GET Requests for Cards
 - Several sections feature cards with information loaded from the server via GET requests.
