@@ -96,7 +96,11 @@ function forms(formSelector, successMessage, dataMessage) {
             }
           }
         })
-        .then(() => {
+        .catch(() => {
+          flag = false;
+          showThanksModal(message.failure.text, message.failure.class);
+        })
+        .finally(() => {
           if (flag) {
             postData('https://c1cf054ef519e1a2.mokky.dev/users', json)
               .then((data) => {
@@ -186,7 +190,7 @@ function forms(formSelector, successMessage, dataMessage) {
 
     function clear(form, status) {
       form.reset();
-      status.remove();
+      status?.remove();
     }
   }
 }
