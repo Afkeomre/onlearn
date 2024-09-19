@@ -6,15 +6,16 @@ This project is a multi-page website for online courses with various interactive
 You can watch the website online [here](https://onlearn.vercel.app/).
 
 ## ✔️ Project Features
-- **Multi-page website**: The website features one fully developed main page with three additional pages designed as placeholders for future content.
-- **Responsive design**: The website is optimized for different devices (desktop, tablet, mobile).
+- **Multi-page Website**: The website features one fully developed main page with three additional pages designed as placeholders for future content.
+- **Responsive Design**: The website is optimized for different devices (desktop, tablet, mobile).
 - **SCSS**: Structured and modular styles using the SCSS preprocessor.
-- **Gulp**: Automated project build using Gulp.
+- **Gulp**: Automated project build.
 
 ## 📌 Main Functionality
 ### 🔐 Registration and Login Forms
 - Forms are opened in modal windows.
 - Client-side validation ensures requests are not sent with invalid data.
+- The data is sent to the server via POST requests.
 - Users are notified of success or errors.
 
 | ![Registration form](https://drive.google.com/uc?export=view&id=1t_TNhjwvTRqd6veqyScl0YtdI7NLq_vb) | ![Login form](https://drive.google.com/uc?export=view&id=1HLsgX8Jl7VsoFwfHVycOEuhzX_rT5uw2) |
@@ -42,11 +43,11 @@ You can watch the website online [here](https://onlearn.vercel.app/).
 
 ### ✨ Tabs, Expandable Section, and Animated Lists
  - **Tabs**: The website features tabs that allow users to switch between different content.
- - **Expandable card section**: A section with a set of cards that can be expanded by clicking the "View all" button.
- - **Animated lists**: Some sections contain lists that appear with simple animations when user clicks a button to expand the list.
+ - **Expandable Card Section**: A section with a set of cards that can be expanded by clicking the "View all" button.
+ - **Animated Lists**: Some sections contain lists that appear with simple animations when user clicks a button to expand the list.
 
 ### ← → Slider
-- Main page features a swiper slider implemented using an external plugin.
+- Main page features a swiper slider implemented using an external [plugin](https://swiperjs.com/).
 
 ### 🔔 Subscription Form
 - A simple subscription form with data submission to the server.
@@ -85,5 +86,5 @@ You can watch the website online [here](https://onlearn.vercel.app/).
 
 ## 📧 Contact
 If you have any questions or suggestions, feel free to reach out:
-- E-mail: ivoronkova538@yandex.ru.
+- Email: ivoronkova538@yandex.ru.
 - GitHub: [Irina Voronkova](https://github.com/Afkeomre).
