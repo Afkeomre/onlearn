@@ -1,90 +1,90 @@
-# 🎓 Onlearn – Website for Online Courses
+# 🎓 Onlearn – веб-сайт для онлайн-курсов
 
-This project is a multi-page website for online courses with various interactive elements. It includes adaptive layout, forms with validation, server interaction, modals and other modern web development features.
+Этот проект представляет собой многостраничный сайт для онлайн-курсов с различными интерактивными элементами. Главными особенностями являются адаптивная верстка, формы с валидацией и взаимодействие с сервером.
 
-## 🌐 Website
-You can watch the website online [here](https://onlearn.vercel.app/).
+## 🌐 Веб-сайт
+Вы можете ознакомиться с сайтом [здесь](https://onlearn.vercel.app/).
 
-## ✔️ Project Features
-- **Multi-page Website**: The website features one fully developed main page with three additional pages designed as placeholders for future content.
-- **Responsive Design**: The website is optimized for different devices (desktop, tablet, mobile).
-- **SCSS**: Structured and modular styles using the SCSS preprocessor.
-- **Gulp**: Automated project build.
+## ✔️ Особенности проекта
+- **Многостраничный веб-сайт**: включает в себя полностью разработанную главную страницу и три дополнительных, предназначенных для размещения будущего контента.
+- **Адаптивный дизайн**: веб-сайт оптимизирован для различных устройств (десктопов, планшетов, смартфонов).
+- **SCSS**: структурированные модульные стили с использованием препроцессора SCSS.
+- **Gulp**: автоматизированная сборка проекта.
 
-## 📌 Main Functionality
-### 🔐 Registration and Login Forms
-- Forms are opened in modal windows.
-- Client-side validation ensures requests are not sent with invalid data.
-- The data is sent to the server via POST requests.
-- Users are notified of success or errors.
+## 📌  Основные функциональные возможности
+### 🔐  Формы регистрации и входа в систему
+- Формы открываются в модальных окнах.
+- Проверка на стороне клиента гарантирует, что запросы не будут отправлены с неверными данными.
+- Данные отправляются на сервер с помощью POST-запросов.
+- Пользователи получают уведомления об успешном выполнении или ошибках.
 
-| ![Registration form](https://drive.google.com/uc?export=view&id=1t_TNhjwvTRqd6veqyScl0YtdI7NLq_vb) | ![Login form](https://drive.google.com/uc?export=view&id=1HLsgX8Jl7VsoFwfHVycOEuhzX_rT5uw2) |
+| ![Форма регистрации](https://drive.google.com/uc?export=view&id=1t_TNhjwvTRqd6veqyScl0YtdI7NLq_vb) | ![Форма логина](https://drive.google.com/uc?export=view&id=1HLsgX8Jl7VsoFwfHVycOEuhzX_rT5uw2) |
 |:--:|:--:|
-| Registartion form | Login from |
+| Форма регистрации | Форма логина |
 
-| ![Success message](https://drive.google.com/uc?export=view&id=1Zy5mXbE8JqJviljW4iNarA3uUU3LlB1k) | ![Success message](https://drive.google.com/uc?export=view&id=1fQUplRRUHW_kER2pYdtTTFKxPlgRHnfp) |
+| ![Успешная регистрация](https://drive.google.com/uc?export=view&id=1Zy5mXbE8JqJviljW4iNarA3uUU3LlB1k) | ![Успешный логин](https://drive.google.com/uc?export=view&id=1fQUplRRUHW_kER2pYdtTTFKxPlgRHnfp) |
 |:--:|:--:|
-| Success registration | Success login |
+| Успешная регистрация | Успешный логин |
 
-| ![Failure message](https://drive.google.com/uc?export=view&id=1zfHlUfDXybZXrvA395L703h_xyW_xvQq) | ![Failure message](https://drive.google.com/uc?export=view&id=1dG7CSPQiQ_SNy-e1DIgXD2MLuIB8EAm2) |
+| ![Ошибка регистрации](https://drive.google.com/uc?export=view&id=1zfHlUfDXybZXrvA395L703h_xyW_xvQq) | ![Ошибка логина](https://drive.google.com/uc?export=view&id=1dG7CSPQiQ_SNy-e1DIgXD2MLuIB8EAm2) |
 |:--:|:--:|
-| Failure registration | Failure login |
+| Ошибка регистрации | Ошибка логина |
 
-| ![Error message](https://drive.google.com/uc?export=view&id=1xNripwdyrhmnLth_ICZn0bDcWWQ9-Ihk) | ![Password message](https://drive.google.com/uc?export=view&id=1Hsz7rXfnJRKbpgvu6yXKH97Xkjmx9D_T) |
+| ![Сщщбщение об ошибке](https://drive.google.com/uc?export=view&id=1xNripwdyrhmnLth_ICZn0bDcWWQ9-Ihk) | ![Сообщение о несовпадении пароля](https://drive.google.com/uc?export=view&id=1Hsz7rXfnJRKbpgvu6yXKH97Xkjmx9D_T) |
 |:--:|:--:|
-| Error message in offline mode | Warning in case of password mismatch |
+| Сообщение об ошибке в офлайн-режиме | Предупреждение в случае несовпадения пароля |
 
 
-### ▶ Video in a Modal Window
-- A modal window with a YouTube video opens when a button "Explore More" is clicked.
+### ▶ Видео в модальном окне
+- При нажатии на кнопку "Explore More" открывается модальное окно с видеороликом из YouTube.
 
-### 📥 GET Requests for Cards
-- Several sections feature cards with information loaded from the server via GET requests.
+### 📥 GET-запросы для карточек
+- В нескольких разделах представлены карточки с информацией, загружаемой с сервера с помощью GET-запросов.
 
-### ✨ Tabs, Expandable Section, and Animated Lists
- - **Tabs**: The website features tabs that allow users to switch between different content.
- - **Expandable Card Section**: A section with a set of cards that can be expanded by clicking the "View all" button.
- - **Animated Lists**: Some sections contain lists that appear with simple animations when user clicks a button to expand the list.
+### ✨ Табы, разворачивающийся раздел и анимированные списки
+ - **Табы**: позволяют пользователям переключаться между различными материалами.
+ - **Разворачивающийся раздел**: содержит набор карточек, разворачивающийся при нажатии на кнопку "View all".
+ - **Анимированные списки**: отображаются с плавной анимацией при появлении.
 
-### ← → Slider
-- Main page features a swiper slider implemented using an external [plugin](https://swiperjs.com/).
+### ← → Слайдер
+- На главной странице есть свайпер-слайдер, реализованный с помощью внешнего [плагина](https://swiperjs.com/).
 
-### 🔔 Subscription Form
-- A simple subscription form with data submission to the server.
+### 🔔 Форма подписки
+- Простая форма подписки с отправкой данных на сервер.
 
-### ☰ Burger Menu 
-- A burger menu is implemented for navigation in the mobile version.
+### ☰ Бургер-меню
+- Для навигации в мобильной версии реализовано бургер-меню.
 
-## ⚙️ Technologies
- - **HTML5, JavaScript** for the main structure and functionality of the website.
- - **SCSS** for styling, providing a structured and modular approach to writing CSS better styling organization.
+## ⚙️ Технологии
+ - **HTML5, JavaScript** для основной структуры и функциональности веб-сайта.
+ - **SCSS** для стилизации, обеспечивающей структурированный и модульный подход к написанию стилей.
  - **Webpack**:
-   - **JavaScript Bundling**: Bundles and processes JavaScript files.
-   - **CSS Handling**: Integrates CSS into the JavaScript bundle.
+   - **JavaScript бандлинг**: объединение и обработка файлов JavaScript.
+   - **Обработка CSS**: подключение и интеграция стилей через JavaScript-бандл.
  - **Gulp**:
-   - **SASS to CSS Compilation**: Compiles SCSS to CSS, with autoprefixing, minification, and source maps.
-   - **Image Optimization**: Optimizes images, converts to WebP and handles file extensions.
-   - **JavaScript Transpiling**: Transpiles JavaScript using Babel and bundles with Webpack.
+   - **Компиляция SASS в CSS**: использование автопрефиксов, минификация и генерация source map.
+   - **Оптимизация изображений**: преобразование в WebP и обработка расширений файлов.
+   - **Транспиляция JavaScript**: преобразование JavaScript-кода с помощью Babel и последующая сборка через Webpack.
   
-## 🚀 How to Run the Project
+## 🚀 Как запустить проект
 
-1. Clone the repository:
+1. Клонируйте репозиторий:
    ```bash
    git clone https://github.com/Afkeomre/onlearn.git
    
-2. Install dependencies:
+2. Установите зависимости:
    ```bash
    npm install
    
-3. Run the project to start a development build:
+3. Запустите проект, чтобы начать сборку в режиме разработки:
    ```bash
    gulp
 
-3. Run the project to create a production-ready build:
+3. Запустите проект для создания продакшен-сборки:
    ```bash
    gulp docs
 
-## 📧 Contact
-If you have any questions or suggestions, feel free to reach out:
+## 📧 Контакты
+Если у вас есть какие-либо вопросы или предложения, напишите мне:
 - Email: ivoronkova538@yandex.ru.
 - GitHub: [Irina Voronkova](https://github.com/Afkeomre).
