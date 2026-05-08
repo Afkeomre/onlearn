@@ -7,12 +7,6 @@ function adjustSwiper() {
     slideToClickedSlide: true,
     initialSlide: 1,
     speed: 1000,
-    effect: 'coverflow',
-    coverflowEffect: {
-      rotate: 15,
-      scale: 0.95,
-      slideShadows: false,
-    },
 
     pagination: {
       el: '.swiper-pagination',
