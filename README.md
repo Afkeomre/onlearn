@@ -101,7 +101,7 @@
     <tr>
       <th align="center">
         <img
-          src="https://drive.google.com/uc?export=view&id=1ZLBBUPPXDhbFrsP-IT9Y9dZcJ_9cKtFg"
+          src="./assets/tabs.gif"
           width="280"
           alt="Табы"
         />
