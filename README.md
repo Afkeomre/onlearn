@@ -108,14 +108,14 @@
       </th>
       <th align="center">
         <img
-          src="https://drive.google.com/uc?export=view&id=1Dgkq7CBWU5On-NOMdIN_leHw-itBVh75"
+          src="./assets/expanded-list.gif"
           width="280"
           alt="Разворачивающийся список"
         />
       </th>
       <th align="center">
         <img
-          src="https://drive.google.com/uc?export=view&id=1Dgkq7CBWU5On-NOMdIN_leHw-itBVh75"
+          src="./assets/animated-list.gif"
           width="280"
           alt="Анимированный список"
         />
@@ -132,13 +132,64 @@
 </table>
 
 ### ← → Слайдер
-- На главной странице есть свайпер-слайдер, реализованный с помощью внешнего [плагина](https://swiperjs.com/).
+<table>
+  <thead>
+    <tr>
+      <th align="center">
+        <img
+          src="./assets/slider.gif"
+          width="500"
+          alt="Слайдер"
+        />
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">Свайпер-слайдер, реализованный с помощью внешнего <a href="https://swiperjs.com">плагина</a>.</td>
+    </tr>
+  </tbody>
+</table>
 
 ### 🔔 Форма подписки
-- Простая форма подписки с отправкой данных на сервер.
+<table>
+  <thead>
+    <tr>
+      <th align="center">
+        <img
+          src="./assets/subscribe-form.jpg"
+          width="500"
+          alt="Форма подписки"
+        />
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">Простая форма подписки с отправкой данных на сервер.</td>
+    </tr>
+  </tbody>
+</table>
 
 ### ☰ Бургер-меню
-- Для навигации в мобильной версии реализовано бургер-меню.
+<table>
+  <thead>
+    <tr>
+      <th align="center">
+        <img
+          src="./assets/burger-menu.jpg"
+          width="280"
+          alt="Бургер-меню"
+        />
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">Для навигации в мобильной версии реализовано бургер-меню.</td>
+    </tr>
+  </tbody>
+</table>
 
 ## ⚙️ Особенности сборки
  - **Webpack**:
