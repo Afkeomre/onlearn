@@ -1,15 +1,15 @@
 # 🎓 Onlearn – веб-сайт для онлайн-курсов
 
-Этот проект представляет собой многостраничный сайт для онлайн-курсов с различными интерактивными элементами. Главными особенностями являются адаптивная верстка, формы с валидацией и взаимодействие с сервером.
+Многостраничный сайт онлайн-курсов с адаптивной версткой, интерактивными UI-элементами и серверным взаимодействием.
+
+## Стек технологий
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000000)
+![SCSS](https://img.shields.io/badge/SCSS-CC6699?style=for-the-badge&logo=sass&logoColor=white)
+![Webpack](https://img.shields.io/badge/Webpack-1C78C0?style=for-the-badge&logo=webpack&logoColor=white)
+![Gulp](https://img.shields.io/badge/Gulp-CF4647?style=for-the-badge&logo=gulp&logoColor=white)
 
 ## 🌐 Веб-сайт
 Вы можете ознакомиться с сайтом [здесь](https://onlearn.vercel.app/).
-
-## ✔️ Особенности проекта
-- **Многостраничный веб-сайт**: включает в себя полностью разработанную главную страницу и три дополнительных, предназначенных для размещения будущего контента.
-- **Адаптивный дизайн**: веб-сайт оптимизирован для различных устройств (десктопов, планшетов, смартфонов).
-- **SCSS**: структурированные модульные стили с использованием препроцессора SCSS.
-- **Gulp**: автоматизированная сборка проекта.
 
 ## 📌  Основные функциональные возможности
 ### 🔐  Формы регистрации и входа в систему
@@ -30,21 +30,106 @@
 |:--:|:--:|
 | Ошибка регистрации | Ошибка логина |
 
-| ![Сщщбщение об ошибке](https://drive.google.com/uc?export=view&id=1xNripwdyrhmnLth_ICZn0bDcWWQ9-Ihk) | ![Сообщение о несовпадении пароля](https://drive.google.com/uc?export=view&id=1Hsz7rXfnJRKbpgvu6yXKH97Xkjmx9D_T) |
+| ![Сообщение об ошибке](https://drive.google.com/uc?export=view&id=1xNripwdyrhmnLth_ICZn0bDcWWQ9-Ihk) | ![Сообщение о несовпадении пароля](https://drive.google.com/uc?export=view&id=1Hsz7rXfnJRKbpgvu6yXKH97Xkjmx9D_T) |
 |:--:|:--:|
 | Сообщение об ошибке в офлайн-режиме | Предупреждение в случае несовпадения пароля |
 
-
 ### ▶ Видео в модальном окне
-- При нажатии на кнопку "Explore More" открывается модальное окно с видеороликом из YouTube.
+
+<table>
+  <thead>
+    <tr>
+      <th align="center">
+        <img
+          src="https://drive.google.com/uc?export=view&id=1Dgkq7CBWU5On-NOMdIN_leHw-itBVh75"
+          width="500"
+          alt="Модальное окно с видеороликом"
+        />
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">
+        При нажатии на кнопку <code>Explore More</code> открывается модальное окно
+        с видеороликом из YouTube.
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ### 📥 GET-запросы для карточек
-- В нескольких разделах представлены карточки с информацией, загружаемой с сервера с помощью GET-запросов.
+<table>
+  <thead>
+    <tr>
+      <th align="center">
+        <img
+          src="https://drive.google.com/uc?export=view&id=1pI5MbaiSkVN8n5QreN3O29Lbsu0yTZxe"
+          width="280"
+          alt="Карточки с данными"
+        />
+      </th>
+      <th align="center">
+        <img
+          src="https://drive.google.com/uc?export=view&id=1BEi7qUcpKS1ENlrkAVSjnsvu4_2FmBpY"
+          width="280"
+          alt="Карточки с данными"
+        />
+      </th>
+      <th align="center">
+        <img
+          src="https://drive.google.com/uc?export=view&id=1n3kTIn7MoLSrHM_yXDiLjEAMY7hljdvy"
+          width="280"
+          alt="Карточки с данными"
+        />
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="3" align="center">
+        В нескольких разделах представлены карточки с информацией,
+        загружаемой с сервера с помощью GET-запросов.
+      </td>
+    </tr>
+  </tbody>
+</table>
 
-### ✨ Табы, разворачивающийся раздел и анимированные списки
- - **Табы**: позволяют пользователям переключаться между различными материалами.
- - **Разворачивающийся раздел**: содержит набор карточек, разворачивающийся при нажатии на кнопку "View all".
- - **Анимированные списки**: отображаются с плавной анимацией при появлении.
+### ✨ Интерактивные элементы интерфейса
+<table>
+  <thead>
+    <tr>
+      <th align="center">
+        <img
+          src="https://drive.google.com/uc?export=view&id=1ZLBBUPPXDhbFrsP-IT9Y9dZcJ_9cKtFg"
+          width="280"
+          alt="Табы"
+        />
+      </th>
+      <th align="center">
+        <img
+          src="https://drive.google.com/uc?export=view&id=1Dgkq7CBWU5On-NOMdIN_leHw-itBVh75"
+          width="280"
+          alt="Разворачивающийся список"
+        />
+      </th>
+      <th align="center">
+        <img
+          src="https://drive.google.com/uc?export=view&id=1Dgkq7CBWU5On-NOMdIN_leHw-itBVh75"
+          width="280"
+          alt="Анимированный список"
+        />
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">Табы</td>
+      <td align="center">Разворачивающийся список</td>
+      <td align="center">Анимированный список</td>
+    </tr>
+  </tbody>
+</table>
 
 ### ← → Слайдер
 - На главной странице есть свайпер-слайдер, реализованный с помощью внешнего [плагина](https://swiperjs.com/).
@@ -55,9 +140,7 @@
 ### ☰ Бургер-меню
 - Для навигации в мобильной версии реализовано бургер-меню.
 
-## ⚙️ Технологии
- - **HTML5, JavaScript** для основной структуры и функциональности веб-сайта.
- - **SCSS** для стилизации, обеспечивающей структурированный и модульный подход к написанию стилей.
+## ⚙️ Особенности сборки
  - **Webpack**:
    - **JavaScript бандлинг**: объединение и обработка файлов JavaScript.
    - **Обработка CSS**: подключение и интеграция стилей через JavaScript-бандл.
